@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+    padding: 0px;;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p{
+    margin: 0px;
+    padding: 0px;
+}
+.bg-color{
+    background-color: transparent;
+    transition: 0.5s;
+}
+.bg-color.scrolled {
+    background: url(../images1/hero-overlay.png);
+    background-color: #1d2e428f;
+    transition: 7s;
+    opacity: 0.5s;
+}
+.button {
+    color: #fff;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid white;
+
+}
+.form-inline .button{
+    border: 1px solid white;
+}
+.navbar-nav a{
+    color: white;
+    transition: 1s;
+    border-radius: 5px;
+    margin: 10px;
+    font-family: 'Roboto Slab', serif;  
+}
+.navbar-nav a:hover{
+background-color: none;
+transition: 0.8s;
+color: white;
+background-color: #346cad85;
+font-family: 'Roboto Slab', serif;  
+
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+   .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+.bg-img{
+    background: url(..//images1/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+#about h3{
+    color: goldenrod;
+    font-family: 'Roboto Slab', serif;
+}
+#showroom h3{
+    color: goldenrod;
+    font-family: 'Roboto Slab', serif;
+}
+#team h3{
+    color: goldenrod;
+    font-family: 'Roboto Slab', serif;
+}
+#para h3{
+    color: goldenrod;
+    font-family: 'Roboto Slab', serif;
+}
+.backs-img{
+    background: url(../images1/hero-overlay.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: auto;
+    width: 100%;
+}
+#footer1 h2{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.mail input[type=text] {
+  max-width: 556px;
+  width: 100%;
+  height: 57px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-style: italic;
+  padding: 10px 25px;
+  margin-right: 30px;
+}
+.mail .site-btn {
+  height: 57px;
+  padding: 17px 20px;
+  min-width: 164px;
+}
+.site-btn.sb-white {
+  background: #fff;
+  color: #652e03;
+}
+.site-btn {
+  display: inline-block;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  min-width: 186px;
+  padding: 23px 20px;
+  border-radius: 0;
+  text-transform: uppercase;
+  background: #652e03;
+  color: #fff;
+  line-height: 1.4;
+  cursor: pointer;
+  text-align: center;
+}
+@media only screen and (max-width: 767px){
+.mail input[type=text] {
+  margin-bottom: 30px;
+  margin-right: 0;
+}
+}
+
+
+@media only screen and (max-width: 767px){
+.mail {
+  display: block;
+  text-align: center;
+}
+}
+.Address{
+  font-family: 'Roboto Slab', serif;  
+}
+#l-footer span{
+  color: #dca95d;
+  line-height: 30px;
+}
+#foot {
+  background-color: black;
+  opacity: 0.8;
+  color: grey;
+}
